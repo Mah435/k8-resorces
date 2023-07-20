@@ -9,7 +9,7 @@ spec:
   selector:
     environment: dev
   ports:
-   -name: http-port
+  - name: http-port
     protocol: TCP
     port: 80
     targetPort: 80
