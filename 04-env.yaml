@@ -1,0 +1,13 @@
+apiversion: v1
+kind: pod
+metadata: 
+ name: env-pod
+spec:
+ containers:
+ - image: nginx
+   name: env-pod
+   env:
+    - name: trainer
+      value: mahesh
+    - name: duration
+      value: 6weeks
